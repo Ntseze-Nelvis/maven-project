@@ -60,7 +60,7 @@ under the License.
        <repository>
          <id>nexus-snapshot-repo</id>
          <name>hsbc-payment</name>
-         <url>http://44.201.26.248:8081/repository/hsbc-payment-gateway-snapshots-repo/</url>
+         <url>http://13.61.33.151:8081/repository/hsbc-payment-gateway-snapshot-repo/</url>
        </repository>
 	   
      </repositories>
@@ -71,7 +71,7 @@ under the License.
        <repository>
          <id>nexus-release-repo</id>
          <name>hsbc-payment</name>
-         <url>http://44.201.26.248:8081/repository/hsbc-payment-gateway-snapshots-repo/url>
+         <url>http://13.61.33.151:8081/repository/hsbc-payment-gateway-snapshot-repo/<url>
        </repository>
      </repositories>
    </profile>
@@ -83,7 +83,7 @@ under the License.
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-        <sonar.host.url>http://100.54.216.3:9000</sonar.host.url>
+        <sonar.host.url>http://13.61.33.151:9000</sonar.host.url>
       </properties>
     </profile>
     <!--End SonarQube/Sonar Profile-->
