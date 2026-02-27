@@ -108,7 +108,7 @@
               <nexusUrl>http://13.61.33.151:8081</nexusUrl>
               <serverId>nexus</serverId>
               <!-- choose the target hosted repository name in Nexus3 -->
-              <repository>hsbc-payment-gateway-snapshot-repo/</repository>
+              <repository>hsbc-payment-gateway-releases-repo</repository>
               <!-- If you want staging workflows, set this to false and use nxrm3:staging-deploy explicitly -->
               <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
             </configuration>
